@@ -15,7 +15,6 @@
 		<!-- <Version>0.1.0-alpha</Version> -->
 		<RepositoryUrl>https://github.com/mihaimyh/AspNetCore.ApiVersioning</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
 		<Authors>Mihai Dumitru</Authors>
 		<PackageProjectUrl>https://github.com/mihaimyh/AspNetCore.ApiVersioning</PackageProjectUrl>
 		<!-- Signing is only performed as part of the release build -->
