@@ -1,9 +1,11 @@
 name: Release to Nuget
 
-on: 
-  release:
-    types: [published]
-
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "src/**"
 jobs:
   build:
 
