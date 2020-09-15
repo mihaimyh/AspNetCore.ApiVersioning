@@ -7,16 +7,21 @@
 		<PackageId>AspNetCore.ApiVersioning</PackageId>
 		<Product>AspNetCore.ApiVersioning</Product>
 		<Description>Adds support for AspNetCore API versioning.</Description>
-		<PackageReleaseNotes>
-			Changes in 0.1.0:
+		<PackageReleaseNotes>Changes in 0.1.0-alpha:
 
-			* Initial alpha-release
+* Initial alpha-release
+
+
+Changes in 0.2.0-alpha:
+
+* Update to 5.0-rc1
 		</PackageReleaseNotes>
 		<!-- <Version>0.1.0-alpha</Version> -->
 		<RepositoryUrl>https://github.com/mihaimyh/AspNetCore.ApiVersioning</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Authors>Mihai Dumitru</Authors>
 		<PackageProjectUrl>https://github.com/mihaimyh/AspNetCore.ApiVersioning</PackageProjectUrl>
+		<Version>0.2.0-alpha</Version>
 		<!-- Signing is only performed as part of the release build -->
 		<!--<SignAssembly>True</SignAssembly>
 		<DelaySign>False</DelaySign>
@@ -32,6 +37,6 @@
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.7" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)'=='net5.0'">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-preview.8.20407.11" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-rc.1.20451.14" />
 	</ItemGroup>
 </Project>
