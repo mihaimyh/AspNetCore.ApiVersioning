@@ -1,11 +1,11 @@
 name: CI/CD
 
 on:
-  pull_request:
-    branches:
-      - master # CI (pr validation)
-    paths:
-      - "src/**"  
+#   pull_request:
+#     branches:
+#       - master # CI (pr validation)
+#     paths:
+#       - "src/**"  
   push:
     branches:
       - master # CI (ci package)
