@@ -7,21 +7,22 @@
 		<PackageId>AspNetCore.ApiVersioning</PackageId>
 		<Product>AspNetCore.ApiVersioning</Product>
 		<Description>Adds support for AspNetCore API versioning.</Description>
-		<PackageReleaseNotes>Changes in 0.1.0-alpha:
+		<PackageReleaseNotes>
+			Changes in 0.1.0-alpha:
+			* Initial alpha-release
 
-* Initial alpha-release
+			Changes in 0.2.0-alpha:
+			* Update to 5.0-rc1
 
-
-Changes in 0.2.0-alpha:
-
-* Update to 5.0-rc1
+			Changes in 0.3.0-alpha:
+			* Update to 5.0 GA
 		</PackageReleaseNotes>
 		<!-- <Version>0.1.0-alpha</Version> -->
 		<RepositoryUrl>https://github.com/mihaimyh/AspNetCore.ApiVersioning</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Authors>Mihai Dumitru</Authors>
 		<PackageProjectUrl>https://github.com/mihaimyh/AspNetCore.ApiVersioning</PackageProjectUrl>
-		<Version>0.2.0-alpha</Version>
+		<Version>0.3.0-alpha</Version>
 		<!-- Signing is only performed as part of the release build -->
 		<!--<SignAssembly>True</SignAssembly>
 		<DelaySign>False</DelaySign>
@@ -29,14 +30,14 @@ Changes in 0.2.0-alpha:
 		<DebugType>embedded</DebugType>-->
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1" />
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.2.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.1'">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.7" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.10" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)'=='net5.0'">
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-rc.1.20451.14" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
 	</ItemGroup>
 </Project>
