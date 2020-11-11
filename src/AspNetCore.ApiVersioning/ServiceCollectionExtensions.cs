@@ -19,7 +19,7 @@ namespace AspNetCore.ApiVersioning
             services.AddVersionedApiExplorer(
             options =>
             {
-                // add the versioned API explorer, which also adds IApiVersionDescriptionProvider service
+                // add the version-ed API explorer, which also adds IApiVersionDescriptionProvider service
                 // note: the specified format code will format the version as "'v'major[.minor][-status]"
                 options.GroupNameFormat = "'v'VVV";
 
